@@ -13,7 +13,7 @@ article div {
   height: 180px;
 }
 
-article div:hover{
+article div:hover {
   background-color: rgb(124, 190, 214);
 }
 
@@ -30,4 +30,11 @@ button {
 
 button:hover {
   background-color: rgb(169, 55, 112);
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }

@@ -1,10 +1,12 @@
-import './App.css';
-import Fetcher from './components/Fetcher';
+import "./App.css";
+import Fetcher from "./components/Fetcher";
+import Form from "./components/Form";
 
 function App() {
   return (
     <div className="App">
-     <Fetcher/>
+      <Form />
+      <Fetcher />
     </div>
   );
 }
